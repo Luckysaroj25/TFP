@@ -210,6 +210,42 @@ h1 {
   gap: 1rem;
 }
 
+.format-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.format-card {
+  padding: 1.2rem;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #f0e0d3;
+  box-shadow: 0 15px 30px -28px rgba(137, 80, 35, 0.8);
+}
+
+.format-tag {
+  display: inline-block;
+  margin: 0 0 0.45rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--primary-dark);
+  background: #fff0e3;
+  border: 1px solid #f5ddc6;
+  border-radius: 999px;
+  padding: 0.28rem 0.62rem;
+}
+
+.format-card ul {
+  margin: 0.3rem 0 0;
+  padding-left: 1.1rem;
+}
+
+.format-card li {
+  margin-bottom: 0.4rem;
+}
+
 .card {
   padding: 1.1rem;
   background: #fff;
@@ -307,7 +343,8 @@ h1 {
   .hero-grid,
   .two-col,
   .cards,
-  .steps {
+  .steps,
+  .format-cards {
     grid-template-columns: 1fr;
   }
 
