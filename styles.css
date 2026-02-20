@@ -48,11 +48,9 @@ body {
 }
 
 .brand-logo {
-  width: clamp(180px, 20vw, 260px);
+  width: clamp(170px, 18vw, 230px);
   height: auto;
   display: block;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px -16px rgba(0, 0, 0, 0.75);
 }
 
 .nav-links {
