@@ -230,6 +230,40 @@ h1 {
   margin-bottom: 0.4rem;
 }
 
+
+.product-name-tab {
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #d91622;
+}
+
+.product-name-tab h3 {
+  margin: 0;
+  padding: 0.8rem 1rem;
+  background: #c70f1d;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.product-name-tab ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-name-tab li {
+  background: #df1928;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.55);
+  font-weight: 600;
+}
+
+.product-name-tab li::before {
+  content: "➜ ";
+  margin-right: 0.15rem;
+}
 .card {
   padding: 1.1rem;
   background: #fff;
